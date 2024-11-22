@@ -1,0 +1,31 @@
+<div class = 'container'>
+    <form [formGroup] ="formWork" (ngSubmit) ="onSubmit()">
+        <label>Название работы!</label>
+        <div class= "titleWork" [ngClass]="{'has-error':formWork.get('title').invalid && formWork.get('title').touched}">
+        <input 
+        type="text"
+        id="title"
+        formControlName="title"
+        placeholder="Титульник" 
+        >
+            <span *ngIf="formWork.get('title').invalid && formWork.get('title').touched">
+                <span *ngIf="formWork.get('title')['errors']['required']">Титульник не может быть пустым!</span>
+                <span *ngIf="formWork.get('title')['errors']['maxlength']">Титульник не может быть длиннее 30 символов!</span>
+                <span *ngIf="formWork.get('title')['errors']['forbiddenTitle']">Такой титульник уже занят</span>
+            </span>     
+        </div>     
+        <label>Текст!</label>
+        <div class= "textWork" [ngClass]="{'has-error':formWork.get('text').invalid && formWork.get('text').touched}">
+            <textarea 
+                type="text"
+                formControlName="text"   
+                id="text" 
+                placeholder="Текст"
+            ></textarea>
+                <span class="errors" *ngIf="formWork.get('text').invalid && formWork.get('text').touched">
+                    <span *ngIf="formWork.get('text')['errors']['required']"> Работа не может быть пустая!</span>
+                </span>
+        </div>
+        <button type="submit"  [disabled]="formWork.invalid">СОХРАНИТЬ!</button>
+    </form>
+</div>

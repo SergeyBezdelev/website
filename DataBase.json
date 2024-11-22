@@ -1,0 +1,148 @@
+{
+  "users": [
+    {
+      "name": "Сергей",
+      "email": "bez011204@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "мария",
+      "email": "maria@mail.ru",
+      "password": "1234567",
+      "id": 2
+    },
+    {
+      "name": "Иван",
+      "email": "IVAN@mail.ru",
+      "password": "111111",
+      "id": 3
+    },
+    {
+      "name": "Masha",
+      "email": "132456@mail.ru",
+      "password": "1516516165165",
+      "id": 4
+    },
+    {
+      "name": "Стёпа",
+      "email": "st@mail.ru",
+      "password": "45464651651",
+      "id": 5
+    }
+  ],
+  "works": [
+    {
+      "authorEmail": "st@mail.ru",
+      "text": "hrthtrh",
+      "date": 1702456237665,
+      "title": "trhhtrhtr",
+      "id": 30
+    },
+    {
+      "authorEmail": "bez011204@gmail.com",
+      "text": "авмавва",
+      "date": 1702493312359,
+      "title": "Отчёт ТП лб5,1",
+      "id": 31
+    },
+    {
+      "authorEmail": "bez011204@gmail.com",
+      "text": "вамвамав",
+      "date": 1702493320537,
+      "title": "Отчёт ТП лб4",
+      "id": 32
+    },
+    {
+      "authorEmail": "bez011204@gmail.com",
+      "text": "випаиапи",
+      "date": 1702493332756,
+      "title": "Отчёт ТП лб6",
+      "id": 33
+    },
+    {
+      "authorEmail": "bez011204@gmail.com",
+      "text": "Привет",
+      "date": 1702493351132,
+      "title": "ПЗ WEB",
+      "id": 34
+    },
+    {
+      "authorEmail": "bez011204@gmail.com",
+      "text": "мт мтмт",
+      "date": 1702493388039,
+      "title": "Отчёт ТП лб2",
+      "id": 35
+    },
+    {
+      "authorEmail": "bez011204@gmail.com",
+      "text": "пьопьопьп",
+      "date": 1702493394581,
+      "title": "Отчёт ТП лб1",
+      "id": 36
+    },
+    {
+      "authorEmail": "bez011204@gmail.com",
+      "text": "птпьпь",
+      "date": 1702493402971,
+      "title": "Отчёт ТП лб3",
+      "id": 37
+    },
+    {
+      "authorEmail": "bez011204@gmail.com",
+      "text": "вамваива",
+      "date": 1702493413907,
+      "title": "титульник 1",
+      "id": 38
+    },
+    {
+      "authorEmail": "bez011204@gmail.com",
+      "text": "вамвав",
+      "date": 1702493422849,
+      "title": "титульник 2",
+      "id": 39
+    },
+    {
+      "authorEmail": "bez011204@gmail.com",
+      "text": "вамвам",
+      "date": 1702493435256,
+      "title": "титульник 3",
+      "id": 40
+    },
+    {
+      "authorEmail": "bez011204@gmail.com",
+      "text": "235вма5",
+      "date": 1702738774646,
+      "title": "ПЗ ООП",
+      "id": 41
+    },
+    {
+      "authorEmail": "IVAN@mail.ru",
+      "text": "ирьрьрп",
+      "date": 1702745638001,
+      "title": "Отчёт ТП лб5",
+      "id": 42
+    },
+    {
+      "authorEmail": "IVAN@mail.ru",
+      "text": "аппа",
+      "date": 1702751434292,
+      "title": "123",
+      "id": 44
+    },
+    {
+      "authorEmail": "IVAN@mail.ru",
+      "text": "fvdfdfvdfbfd",
+      "date": 1702753041451,
+      "title": "Отчёт ТП лб2",
+      "id": 45
+    },
+    {
+      "authorEmail": "bez011204@gmail.com",
+      "text": "нет(",
+      "date": 1703082988104,
+      "title": "3 Кр по криптогра",
+      "id": 54
+    }
+  ]
+}

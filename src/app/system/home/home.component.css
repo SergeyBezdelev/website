@@ -1,0 +1,47 @@
+.container{
+    margin: 0px 166px;
+    min-height: calc(100vh);
+    padding-bottom: 80px;
+}
+table {
+	width: 100%;
+	border-collapse: collapse; 
+	outline: 2px solid #090909;
+	background: #bbb2b2;;
+}
+table th {
+	border-bottom: 3px solid #ffd300;
+}
+
+table td {
+	padding: 4px;
+	border-bottom: 2px solid #090909;
+	font-size: 17px;
+}
+.Edit{	
+    text-align: center;
+    width: 20%;
+}
+.Del{	
+    text-align: center;
+    width: 15%;
+}
+.Date{
+    text-align: center;
+    color: #a72615c6;
+    width: 7%;
+    font-size: 29px;
+}
+
+button {
+    height: 30px;
+    background-color: rgb(232, 31, 24);
+    color: white;
+    transition: background-color 0.3s linear;
+    margin-top: 6px;
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: rgb(42, 215, 15);
+}

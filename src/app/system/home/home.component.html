@@ -1,0 +1,11 @@
+<div class = 'container'>
+        <h1>Мои работы!</h1>
+        <table>
+            <tr *ngFor="let work of works">
+                <td> {{work.title}}</td>
+                <td class= "Edit"><button (click)="toEdit(work)">Смотреть/Редактировать</button></td>
+                <td class= "Del"><button (click)="toDel(work.id)">Удалить!</button></td>
+                <td class= "Date">{{work.date|date:'shortDate'}}</td>
+            </tr>
+        </table>
+</div>
